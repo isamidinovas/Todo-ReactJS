@@ -3,7 +3,8 @@ import React,{useState} from "react";
 import List from "./components/List"
 import AddButtonList from './components/AddList/index'
 import DB from './assets/db.json'
-
+import Tasks from './components/Tasks'
+import listSvg from './assets/img/list.svg'
 function App(){
   const [lists, setLists]=useState(
     DB.lists.map(item =>{
@@ -38,7 +39,9 @@ function App(){
 <List items={lists} onRemove={()=>(alert(1))} isRemovable/>
       <AddButtonList onAdd={onAddList} colors={DB.colors}/>
           </div>
-          <div className="todo_tasks"></div>
+          <div className="todo__tasks">
+            <Tasks/>
+          </div>
       </div>
    );
   }
