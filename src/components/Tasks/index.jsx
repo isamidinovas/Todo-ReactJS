@@ -20,7 +20,7 @@ import editSvg from '../../assets/img/edit.svg'
 
                </label>
              </div>
-             <p>ReactJS Hooks (useState, useReducer, useEffect и т.д.)</p>
+             {/* <p>ReactJS Hooks (useState, useReducer, useEffect и т.д.)</p> */}
            </div>
         </div>
     </div>
