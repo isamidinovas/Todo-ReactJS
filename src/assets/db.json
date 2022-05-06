@@ -29,6 +29,11 @@
       "name": "sport",
       "colorId": 7,
       "id": 6
+    },
+    {
+      "name": "Todo ReactJs completed!!!",
+      "colorId": 6,
+      "id": 7
     }
   ],
   "tasks": [
@@ -36,7 +41,7 @@
       "id": 1,
       "listId": 2,
       "text": "Изучить JavaScript",
-      "completed": false
+      "completed": true
     },
     {
       "id": 2,
@@ -70,7 +75,7 @@
     {
       "listId": 1,
       "text": "23",
-      "completed": false,
+      "completed": true,
       "id": 7
     },
     {
@@ -96,6 +101,36 @@
       "text": "Купить 1984",
       "completed": false,
       "id": 11
+    },
+    {
+      "listId": 1,
+      "text": "234",
+      "completed": false,
+      "id": 12
+    },
+    {
+      "listId": 5,
+      "text": "Личное",
+      "completed": false,
+      "id": 13
+    },
+    {
+      "listId": 1,
+      "text": "6660",
+      "completed": false,
+      "id": 14
+    },
+    {
+      "listId": 7,
+      "text": "Сделали список задач",
+      "completed": false,
+      "id": 15
+    },
+    {
+      "listId": 7,
+      "text": "Добавили функции удаления и редактирования.",
+      "completed": false,
+      "id": 16
     }
   ],
   "colors": [
