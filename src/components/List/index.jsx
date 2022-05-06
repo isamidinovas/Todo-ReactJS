@@ -20,17 +20,18 @@ const List = ({
       });
     }
   };
+  console.log(items);
   return (
     <ul onClick={onClick} className="list">
       {items.map((item, index) => (
         <li
           key={index}
           className={classNames(item.className, {
-             active:
-             // item.active
-            //   ? item.active
+            active:
+              // item.active
+              //   ? item.active
               //:
-               activeItem && activeItem.id === item.id
+              activeItem && activeItem.id === item.id,
           })}
           onClick={onClickItem ? () => onClickItem(item) : null} //className={item.active ? "active" : ""}
           // onClick= {onClickItem ? () =>onClickItem(item) : null}

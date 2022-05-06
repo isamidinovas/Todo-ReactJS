@@ -6,7 +6,7 @@ import editSvg from "../../assets/img/edit.svg";
 
 import AddTaskForm from "./AddTaskForm";
 
-const Tasks = ({ list, onEditTitle, onAddTask}) => {
+const Tasks = ({ list, onEditTitle, onAddTask }) => {
   const editTitle = () => {
     const newTitle = window.prompt("Название списка", list.name);
     if (newTitle) {
@@ -54,7 +54,7 @@ const Tasks = ({ list, onEditTitle, onAddTask}) => {
           </div>
         ))}
 
-     <AddTaskForm list={list} onAddTask={onAddTask}/>
+        <AddTaskForm list={list} onAddTask={onAddTask} />
       </div>
     </div>
   );
